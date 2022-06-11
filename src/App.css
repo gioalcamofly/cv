@@ -1,7 +1,17 @@
 .App {
   text-align: center;
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
 }
 
+html {
+  background: url(../public/images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +45,72 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.banner {
+  position:absolute;
+  top: 50%;
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.banner-text {
+  width: 100%;
+}
+
+.banner-text h1 {
+  font: 90px/1.1em;
+  color: #fff;
+  letter-spacing: -2px;
+  margin: 0 auto 18px auto;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+
+.banner-text h3 {
+  font: 18px;
+  color: #fff;
+  margin: 0 auto;
+  width: 70%;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+}
+
+footer {
+  padding-top: 48px;
+  margin: 0 auto;
+  color: #fff;
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.navbar {
+  font: 12px;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.navlist {
+  min-height: 48px;
+  width: auto;
+  text-align: center;
+}
+
+.navlist li {
+  position: relative;
+  list-style: none;
+  height: 48px;
+  display: inline-block;
+  padding: 8px;
+  color: #fff
 }
