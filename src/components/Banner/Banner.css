@@ -1,0 +1,43 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .banner-text h1 {
+    font-size: 3.2em;
+    letter-spacing: -2px;
+    margin: 0 auto 18px auto;
+  }
+  
+  .banner-text h2 {
+    font-size: 1.2em;
+  }
+  
+  .banner-text p {
+    font-size: 0.9em;
+    color: rgb(201, 201, 201);
+    font-style: italic;
+    font-weight:400;
+  }
+  
+  .social-networks {
+    padding: 0;
+    font-size: 2.5em;
+  }
+  
+  .social-networks li {
+    display: inline-block;
+    padding: 0;
+    margin: 0 0.5em;
+  }
+  
+  .social-networks a {
+    color: #fff;
+  }
+  
+  .social-networks a:hover {
+    color: #17ddff;
+  }

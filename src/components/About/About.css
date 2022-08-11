@@ -1,0 +1,33 @@
+#about {
+    border-radius: 10px;
+    padding: 2em 4em 2em 0;
+    margin: auto;
+    width: 85vw;
+    background: #262626fd;
+    text-align: left;
+    height: 500px;
+}
+
+.image-container {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.profile-pic {
+    width: auto;
+    height: 100%;
+    margin-left: -35px;
+}
+
+#technologies {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+#technologies li {
+    margin-bottom: 1em;
+}
