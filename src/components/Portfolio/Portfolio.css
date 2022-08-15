@@ -1,0 +1,16 @@
+#portfolio {
+    background: #262626ee;
+    margin: 10em auto 0em auto;
+    width: 85vw;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 2em 4em 2em 0;
+}
+
+#portfolio-header {
+    font-size: 26px;
+    font-weight: bold;
+}

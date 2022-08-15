@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Banner } from '../Banner/Banner';
 import { About } from '../About/About';
+import { Portfolio } from '../Portfolio/Portfolio';
 import { Contact } from '../Contact/Contact';
 import './Main.css';
 
@@ -11,6 +12,7 @@ export function Main() {
         <main>
             <Banner />
             <About />
+            <Portfolio />
             <Contact />
         </main>
     )

@@ -28,23 +28,28 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    padding: 3em 1em 3em 3em;
+    padding: 3em 1em 0em 3em;
 }
 
 #contact-info {
     width: 30%;
+}
+
+#contact-info ul {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    margin: auto;
+    justify-content: center;
+    height: 100%;
 }
 
 #contact-info li {
     list-style: none;
     display: flex;
+    margin-bottom: 70px;
+    
 }
 
-header {
+#contact-header {
     margin-top: 15px;
     font-size: 26px;
     font-weight: bold;
@@ -91,6 +96,14 @@ textarea {
 
 #contact-form-container {
     display: flex;
+    box-sizing: border-box;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.icon {
+    color: #6b2d61;
+    margin-right: 10px;
 }
 
 #contact-section {
@@ -98,4 +111,6 @@ textarea {
     text-align: center;
     width: 60vw;
     border-radius: 10px;
+    display:flex;
+    flex-direction:column;
 }
