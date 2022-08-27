@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cv-app/static/css/main.7ad81010.css",
-    "main.js": "/cv-app/static/js/main.ed543073.js",
+    "main.css": "/cv-app/static/css/main.e4d48ab3.css",
+    "main.js": "/cv-app/static/js/main.cf8316e6.js",
     "static/js/787.dbc30ae6.chunk.js": "/cv-app/static/js/787.dbc30ae6.chunk.js",
     "static/media/background1.jpg": "/cv-app/static/media/background1.b30607c99978117d662d.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/cv-app/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -11,12 +11,12 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/cv-app/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/logo.svg": "/cv-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/cv-app/index.html",
-    "main.7ad81010.css.map": "/cv-app/static/css/main.7ad81010.css.map",
-    "main.ed543073.js.map": "/cv-app/static/js/main.ed543073.js.map",
+    "main.e4d48ab3.css.map": "/cv-app/static/css/main.e4d48ab3.css.map",
+    "main.cf8316e6.js.map": "/cv-app/static/js/main.cf8316e6.js.map",
     "787.dbc30ae6.chunk.js.map": "/cv-app/static/js/787.dbc30ae6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ad81010.css",
-    "static/js/main.ed543073.js"
+    "static/css/main.e4d48ab3.css",
+    "static/js/main.cf8316e6.js"
   ]
 }
