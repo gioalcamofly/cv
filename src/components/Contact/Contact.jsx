@@ -37,7 +37,7 @@ export function Contact() {
                             <ul>
                                 <li>
                                     <div className="icon">
-                                        <i className="fa fa-solid fa-camera-retro fa-3x"></i>
+                                        <i className="fa fa-solid fa-envelope fa-3x"></i>
                                     </div>
                                     <div className="description">
                                         <p>giovannicabreramoreno@gmail.com</p>
@@ -45,10 +45,10 @@ export function Contact() {
                                 </li>
                                 <li>
                                     <div className="icon">
-                                        <i className="fa fa-solid fa-magic fa-3x"></i>
+                                        <i className="fa fa-solid fa-location-arrow fa-3x"></i>
                                     </div>
                                     <div className="description">
-                                        <p>Las Palmas de Gran Canaria</p>
+                                        <p>Las Palmas de Gran Canaria, Spain</p>
                                     </div>
                                 </li>
                             </ul>

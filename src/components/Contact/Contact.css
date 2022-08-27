@@ -102,11 +102,6 @@ textarea {
     flex-grow: 1;
 }
 
-.icon {
-    color: #6b2d61;
-    margin-right: 10px;
-}
-
 #contact-section {
     background: #262626ee;
     text-align: center;
@@ -115,3 +110,37 @@ textarea {
     display:flex;
     flex-direction:column;
 }
+
+@media (max-width: 768px) {
+    #contact {
+        margin-top: 25em;
+    }
+    #contact-container {
+        flex-direction: column;
+        width: 100vw;
+    }
+    #contact-form-container {
+        flex-direction: column;
+    }
+    #contact-section {
+        width: 100vw;
+        border-radius: 0;
+    }
+    #contact-form {
+        width: 80%;
+        padding: 3em 2em 0em 2em;
+    }
+    #contact-info {
+        width: 80%;
+    }
+    #contact-info li {
+        margin-bottom: 40px;
+    }
+}
+
+.icon {
+    color: #6b2d61;
+    margin-right: 10px;
+    width: 50px;
+}
+

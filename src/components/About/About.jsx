@@ -8,15 +8,15 @@ export function About() {
     return (
         <section id="about">
             <Grid container justifyContent="center" alignItems="center" spacing={1}>
-                <Grid item sx={{textAlign: 'center'}} xs={3}>
+                <Grid item sx={{textAlign: 'center'}} xs={12} md={3}>
                     <div className="image-container">
                         <img className="profile-pic" src={process.env.PUBLIC_URL + "/images/cv.jpg"} alt="Profile pic" />
                     </div>
                 </Grid>
-                <Grid item className="title" xs={9}>
+                <Grid item className="about-title" xs={12} md={9}>
                     <h2>About me:</h2>
                 </Grid>
-                <Grid item sx={{ textAlign: 'center' }} xs={3}>
+                <Grid item sx={{ textAlign: 'center' }} xs={6} md={3}>
                     <ul id="technologies">
                         <li><strong>Python</strong></li>
                         <li><strong>PHP</strong></li>
@@ -24,7 +24,7 @@ export function About() {
                         <li><strong>SQL</strong></li>
                     </ul>
                 </Grid> 
-                <Grid item className="text" xs={9}>
+                <Grid item className="about-text" xs={12} md={9}>
                     <p>I am developer with 4 years of experience mainly in backend development but also in frontend, DevOps
                         and a little bit of application development. I'm in love with technology and I always try to learn
                         something new. I'm looking for a place where I can keep growing and where I could hace the 
