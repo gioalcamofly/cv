@@ -35,3 +35,9 @@
   color: inherit;
   text-decoration: inherit;
 }
+
+@media (max-width: 600px) {
+  .navbar {
+    letter-spacing: 1px;
+  }
+}
