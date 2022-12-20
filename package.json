@@ -1,7 +1,7 @@
 {
   "name": "cv",
   "version": "0.1.0",
-  "homepage": "https://gioalcamofly.github.io/cv-app",
+  "homepage": "https://gioalcamofly.github.io/cv",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
